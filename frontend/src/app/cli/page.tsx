@@ -33,7 +33,7 @@ export default function Clipage() {
     router.replace("/");
   };
 
-  const installCommand = "curl -sL https://docswarm.dev/install.sh | bash"; // Placeholder command
+  const installCommand = "irm https://raw.githubusercontent.com/SohamSawant21/DocSwarm_CLI/main/install.ps1 | iex";
 
   const handleCopy = async () => {
     try {
